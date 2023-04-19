@@ -1,0 +1,68 @@
+.image{
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+}
+.banner-section-bg-container {
+    background-image: url("https://www.i-com.it/wp-content/uploads/2021/07/money-transfer-Mobile-banking-business-buy-communication-concept-1445247-pxhere.com_-1068x756.jpg");
+    height: 100vh;
+    background-size: cover;
+  }
+  .banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+  }
+  .banner-caption {
+    color: black;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+  }
+    
+.custom-button{
+  color: black;
+  background-color: #ffff;
+  width: 120px;
+  height: 50px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.footer-container {
+  background-color: #19232d;
+}
+
+.img-1 {
+  height: 100px;
+  width: 150px;
+}
+
+.footer-icon-container {
+  height: 60px;
+  width: 60px;
+  background-color: #202b36;
+  border-radius: 40px;
+  padding: 22px 15px 14px 22px;
+  margin: 10px;
+}
+
+.icon {
+  color: #959ead;
+  font-size: 22px;
+}
+
+.para {
+  color: #959ead;
+  text-align: center;
+}
+
+.contact-data {
+  color: #959ead;
+}
+
+hr {
+  height: 1px;
+  background-color: #959ead;
+}

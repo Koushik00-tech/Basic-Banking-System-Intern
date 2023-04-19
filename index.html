@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!--CSS FILE-->
+    <link rel="stylesheet" href="style.css">
+    <title>Basic Banking System</title>
+    <!--Font Awesome link-->
+    <script src="https://kit.fontawesome.com/31bea73526.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--Nav Bar starts here-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand"  href="#">
+        <img src="sbi.png" class="image"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto" >
+          <a class="nav-link active" href="index.html">
+            Home
+            <span class="sr-only">(current)</span>
+          </a>
+          <a class="nav-link active" href="#abt-section">About</a>
+          <a class="nav-link active" href="customer.html">Transactions</a>
+          <a class="nav-link active" href="#footer-section">Contact Us</a>
+        </div>
+      </div>
+    </nav>
+<!--Nav Bar ends here-->
+<!--Banner/Content page starts here-->
+    <div class="banner-section-bg-container d-flex justify-content-top flex-column">
+      <div class="text-center mt-5">
+        <h1 class="banner-heading "><i>Net Banking Made Easy</i></h1>
+        <p class="banner-caption ">Make Transactions Online</p>
+        <button class="custom-button mb-3" onclick="document.location = 'customer.html'">
+        Get Started
+      </button>
+      </div>
+    </div>
+<!--Banner/Content page Ends here-->
+<!--About Feature starts here-->
+    <div class="about" id="abt-section">
+      <div class="text-center">
+        <h1 class="abt-head mt-3"><i>About</i></h1>
+      </div>
+      <p class="abt-para p-5">State Bank of India is India's largest bank with a network of over 15000 branches and 5 associate banks located even in the remotest parts of India.
+         State Bank of India (SBI) offers a wide range of banking products and services to corporate and retail customers. OnlineSBI is the Internet banking portal for State Bank of India. The portal provides anywhere, anytime, online access to accounts for State Bank's Retail and Corporate customers. The application is developed using the latest cutting edge technology and tools. The infrastructure supports unified, secure access to banking services for accounts in over 15,000 branches across India.</p>
+    </div>
+<!--About Feature Ends here-->
+<!--Contact us Feature starts here-->
+<div class="footer-container p-3" id="footer-section">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 mt-3">
+              <div class="col-12 text-center text-md-left text-lg-left">
+                  <img src="sbi.png" class="img-1 w-100" />
+              </div>
+              <div class="d-flex flex-row justify-content-center">
+                  <div class="footer-icon-container">
+                      <i class="fab fa-google icon"></i>
+                  </div>
+                  <div class="footer-icon-container">
+                      <i class="fab fa-twitter icon"></i>
+                  </div>
+                  <div class="footer-icon-container">
+                      <i class="fab fa-instagram icon"></i>
+                  </div>
+                  <div class="footer-icon-container">
+                      <i class="fab fa-linkedin icon"></i>
+                  </div>
+              </div>
+              <p class="para mb-4 text-md-left">37, Ayur Vigyan Nagar,New Delhi,India</p>
+          </div>
+          <div class="col-6 col-md-6 col-lg-3 mt-3">
+              <div class="contact-data">
+                  <h5 class="contact-head mb-3">Online Fund Transfer</h5>
+                  <p>NEFT</p>
+                  <p>RTGS</p>
+                  <p>IMPS</p>
+              </div>
+          </div>
+          <div class="col-6 col-md-6 col-lg-3 mt-3">
+              <div class="contact-data">
+                  <h5 class="contact-head mb-3">Features</h5>
+                  <p>Account Details</p>
+                  <p>Send Money</p>
+                  <p>Transcation History</p>
+              </div>
+          </div>
+          <div class="col-6 col-md-6 col-lg-3 mt-3">
+              <div class="contact-data">
+                  <h5 class="contact-head mb-3">Let Us Help You</h5>
+                  <p>100% Secure</p>
+                  <p>Your Account</p>
+                  <p>24/7 Fund Transfer </p>
+                  <p>Help</p>
+              </div>
+          </div>
+      </div>
+      <hr />
+      <div class="col-12 ">
+          <div class="d-flex flex-row justify-content-md-center text-center">
+              <i class="fa-regular fa-copyright icon mr-2 ml-5"></i>
+              <p class="para">2023 by Koushik Koppolu</p>
+          </div>
+      </div>
+  </div>
+</div>
+<!--Footer End-->
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+      
+    </div>
+  </body>
+</html>
