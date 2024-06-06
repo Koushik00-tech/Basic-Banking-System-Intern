@@ -6,6 +6,8 @@ Features
 - About: Provides information about the website, its purpose, and any other relevant details.
 - Transactions: Allows users to initiate money transfers to other users. Users can input the recipient's details and the amount they wish to transfer. A submit button is provided in the middle of the page for ease of access.
 - Contact Us: Provides contact information for users to get in touch with the website administrators for any queries or support.
+
+
 Tech Stack
 - HTML: Used for structuring the web pages.
 - CSS: Used for styling and layout.
