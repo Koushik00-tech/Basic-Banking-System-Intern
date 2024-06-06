@@ -2,8 +2,8 @@ Basic Banking Website
 This is a basic banking website that allows users to transfer money from their account to any other user. It is built using HTML, CSS, JavaScript, and Bootstrap.
 
 Features
-Home: The landing page of the website where users can find basic information about the banking services offered.
-About: Provides information about the website, its purpose, and any other relevant details.
+- Home: The landing page of the website where users can find basic information about the banking services offered.
+- About: Provides information about the website, its purpose, and any other relevant details.
 Transactions: Allows users to initiate money transfers to other users. Users can input the recipient's details and the amount they wish to transfer. A submit button is provided in the middle of the page for ease of access.
 Contact Us: Provides contact information for users to get in touch with the website administrators for any queries or support.
 Tech Stack
