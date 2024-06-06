@@ -14,7 +14,7 @@ This is a basic banking website that allows users to transfer money from their a
 - **JavaScript**: Used for adding interactivity and functionality to the website.
 - **Bootstrap**: Used for responsive design and pre-styled components.
 
-## Live Link
+## Live
 Click here to view the website: https://basic-banking-system-koushik-intern.netlify.app/
 
 ## Usage
